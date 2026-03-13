@@ -1,41 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Our Properties | Bensin Akume Estates</title>
+<title>Properties | Bensin Akume</title>
 
 <style>
+
 body{
-font-family:Arial;
-margin:0;
+font-family: Arial;
 background:#0a192f;
 color:#f7e7ce;
-}
-
-.container{
-max-width:1100px;
-margin:auto;
-padding:40px 20px;
+margin:0;
+padding:40px;
 }
 
 h1{
-color:gold;
 text-align:center;
+color:gold;
+margin-bottom:40px;
 }
 
-.properties{
+.property-grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-gap:30px;
-margin-top:40px;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
 }
 
-.property{
+.property-card{
 background:#112240;
 border-radius:10px;
 overflow:hidden;
+box-shadow:0 10px 30px rgba(0,0,0,0.4);
 }
 
-.property img{
+.property-card img{
 width:100%;
 height:200px;
 object-fit:cover;
@@ -45,51 +42,89 @@ object-fit:cover;
 padding:20px;
 }
 
-button{
-padding:12px 20px;
-background:#800020;
-border:none;
-color:white;
-border-radius:6px;
-cursor:pointer;
+.property-info h3{
+color:#f4a261;
+margin-top:0;
 }
-</style>
 
+.property-info p{
+font-size:15px;
+line-height:1.5;
+}
+
+.whatsapp-btn{
+display:inline-block;
+margin-top:15px;
+padding:10px 18px;
+background:#25D366;
+color:white;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+}
+
+</style>
 </head>
 
 <body>
 
-<div class="container">
+<h1>Available Luxury Properties</h1>
 
-<h1>Available Properties</h1>
+<div class="property-grid">
 
-<div class="properties">
+<div class="property-card">
 
-<div class="property">
 <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c">
+
 <div class="property-info">
-<h3>Luxury Beachfront Villa</h3>
-<p>Lekki Phase 1</p>
-<button>Request Details</button>
-</div>
+
+<h3>Lekki Beachfront Villa</h3>
+
+<p>4 Bedroom smart luxury home inside a secured waterfront estate.</p>
+
+<a class="whatsapp-btn"
+href="https://wa.me/234XXXXXXXXXX?text=Hello%20I%20am%20interested%20in%20the%20Lekki%20Beachfront%20Villa">
+Enquire on WhatsApp
+</a>
+
 </div>
 
-<div class="property">
-<img src="https://images.unsplash.com/photo-1600585154207-87f1b9d8c5b3">
-<div class="property-info">
-<h3>Smart Luxury Apartment</h3>
-<p>Victoria Island</p>
-<button>Request Details</button>
-</div>
 </div>
 
-<div class="property">
-<img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d">
+<div class="property-card">
+
+<img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c">
+
 <div class="property-info">
-<h3>Waterfront Duplex</h3>
-<p>Lekki Free Trade Zone</p>
-<button>Request Details</button>
+
+<h3>Premium Smart Duplex</h3>
+
+<p>Fully furnished duplex with rooftop lounge and ocean view.</p>
+
+<a class="whatsapp-btn"
+href="https://wa.me/234XXXXXXXXXX?text=Hello%20I%20am%20interested%20in%20the%20Premium%20Smart%20Duplex">
+Enquire on WhatsApp
+</a>
+
 </div>
+
+</div>
+
+<div class="property-card">
+
+<img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde">
+
+<div class="property-info">
+
+<h3>Luxury Terrace Apartments</h3>
+
+<p>Serviced apartments perfect for shortlet and Airbnb investment.</p>
+
+<a class="whatsapp-btn"
+href="https://wa.me/234XXXXXXXXXX?text=Hello%20I%20am%20interested%20in%20the%20Luxury%20Terrace%20Apartment">
+Enquire on WhatsApp
+</a>
+
 </div>
 
 </div>
